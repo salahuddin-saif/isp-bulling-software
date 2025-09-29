@@ -1,4 +1,4 @@
-## ISP Billing System (PHP)
+## 🌐ISP Billing System (PHP)
 
 An ISP billing web application built with vanilla PHP (MVC-style), featuring:
 
@@ -8,7 +8,7 @@ An ISP billing web application built with vanilla PHP (MVC-style), featuring:
 - Post-payment network access hook (pluggable service)
 - Responsive UI using Bootstrap 5
 
-### Requirements
+### 💎Requirements
 
 - PHP 8.1+
 - PDO extension (MySQL)
@@ -70,9 +70,10 @@ Listen to events: `checkout.session.completed`.
 
 7) Admin user: Manually set `role` to `admin` for your user in `users` table to access the admin panel.
 
-### Notes
+### ✏️Notes
 
 - If `STRIPE_SECRET_KEY` is empty, the app switches to Demo Payment mode: invoices can be marked as paid via a button for development.
 - Network access integration is provided via `app/Services/NetworkAccessService.php` with a `mock` implementation and a place to add your real RADIUS/MikroTik logic.
+
 
 
